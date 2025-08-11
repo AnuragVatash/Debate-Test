@@ -1,0 +1,258 @@
+{% extends 'base.html' %}
+{% block title %}{{ metadata.get('debate_title', debate_id) }} · Debate Engine{% endblock %}
+{% block content %}
+<div class="flex flex-col gap-4">
+  <div>
+    <h1 class="text-2xl font-semibold">{{ metadata.get('debate_title', debate_id) }}</h1>
+    <div class="text-sm text-base-content/70">Winner: {{ llm_declared_winner or '—' }} · Final: {{ final if final is not none else '—' }} · Confidence: {{ confidence if confidence is not none else '—' }}</div>
+  </div>
+
+  <div id="timeline" class="w-full border rounded-lg bg-base-300 p-3 shadow" style="height: 380px"></div>
+
+  <script>
+    const timeline = {{ timeline|tojson }};
+    const speakersMap = {{ speakers|tojson }};
+    function parseHHMMSS(t){
+      if(!t) return null;
+      try{
+        const parts = t.split(':');
+        if(parts.length !== 3) return null;
+        const h = parseInt(parts[0],10)||0;
+        const m = parseInt(parts[1],10)||0;
+        const s = parseFloat(parts[2])||0;
+        return h*3600 + m*60 + s;
+      }catch(e){ return null; }
+    }
+    const xs = timeline.map((t, idx) => parseHHMMSS(t.end) ?? (typeof t.window_idx === 'number' ? t.window_idx : idx));
+    const ys = timeline.map(t => t.cumulative ?? 0);
+    const yMax = Math.max.apply(null, ys.length ? ys : [1]);
+    const yMin = Math.min.apply(null, ys.length ? ys : [-1]);
+
+    // Top band to the max, then fill down to the line (pink)
+    const traceTop = {
+      x: xs,
+      y: xs.map(() => yMax),
+      type: 'scatter',
+      mode: 'lines',
+      line: { color: 'rgba(0,0,0,0)' },
+      hoverinfo: 'skip',
+      showlegend: false
+    };
+    const traceLinePink = {
+      x: xs,
+      y: ys,
+      type: 'scatter',
+      mode: 'lines',
+      line: { color: '#ffffff', width: 1 },
+      fill: 'tonexty',
+      fillcolor: 'rgba(217,70,239,0.20)', // pink above the line
+      name: 'Line',
+    };
+    // Bottom band to the min, fill up to the line (blue)
+    const traceBottom = {
+      x: xs,
+      y: xs.map(() => yMin),
+      type: 'scatter',
+      mode: 'lines',
+      line: { color: 'rgba(0,0,0,0)' },
+      fill: 'tonexty',
+      fillcolor: 'rgba(14,165,233,0.20)', // blue below the line
+      hoverinfo: 'skip',
+      showlegend: false
+    };
+
+    const layout = {
+      title: { text: 'Cumulative advantage over time', font: { color: 'rgba(255,255,255,0.9)' } },
+      showlegend: false,
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor: 'rgba(0,0,0,0)',
+      font: { color: 'rgba(255,255,255,0.9)' },
+      xaxis: {
+        title: 'Window (s/index)',
+        gridcolor: 'rgba(255,255,255,0.1)',
+        zeroline: true,
+        zerolinecolor: 'rgba(255,255,255,0.3)',
+        linecolor: 'rgba(255,255,255,0.2)'
+      },
+      yaxis: {
+        title: 'Score',
+        gridcolor: 'rgba(255,255,255,0.1)',
+        zeroline: true,
+        zerolinecolor: 'rgba(255,255,255,0.3)',
+        linecolor: 'rgba(255,255,255,0.2)'
+      },
+      margin: { t: 40, r: 20, b: 40, l: 50 }
+    };
+    Plotly.newPlot('timeline', [traceTop, traceLinePink, traceBottom], layout, {responsive: true});
+  </script>
+
+  <div class="mt-8 grid gap-6 md:grid-cols-3">
+    <div class="md:col-span-2">
+      <h2 class="text-xl font-semibold mb-2">Highlights (largest |delta| per 5 minutes)</h2>
+      <div id="chat" class="flex flex-col gap-4">
+        <!-- Chat will be rendered dynamically for the current highlight window -->
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-xl font-semibold mb-2">Eval Bar</h2>
+      <div class="border rounded-lg p-4 bg-base-300 shadow">
+        <div id="evalBar" class="h-64 w-full relative bg-base-200 rounded overflow-hidden">
+          <div id="evalFillB" class="absolute top-0 left-0 right-0 bg-fuchsia-500" style="height: 0%"></div>
+          <div id="evalFillA" class="absolute bottom-0 left-0 right-0 bg-sky-500" style="height: 0%"></div>
+          <div class="absolute inset-0 flex items-center justify-center text-xs text-base-content/70">
+            <span id="evalLabel">A up (positive) / B down (negative)</span>
+          </div>
+          <div class="absolute top-1/2 left-0 right-0 border-t border-base-300"></div>
+        </div>
+        <div class="mt-3 flex items-center gap-2">
+          <button id="prevBtn" class="btn btn-sm btn-outline">Prev</button>
+          <button id="nextBtn" class="btn btn-sm btn-primary">Next</button>
+          <div class="text-xs opacity-70" id="idxLabel"></div>
+        </div>
+      </div>
+
+      <div class="mt-4 border rounded-lg p-4 bg-base-300 shadow">
+        <h3 class="font-semibold mb-2">Window justification</h3>
+        <div id="justBox" class="text-sm text-base-content/80">
+          <div class="text-base-content/60">Rubric scores and a brief rationale will appear here as you step through highlights.</div>
+          <div id="scoreTable" class="mt-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const highlights = {{ highlights|tojson }};
+    const minC = {{ min_c|tojson }};
+    const maxC = {{ max_c|tojson }};
+
+    // Scale cumulative score to 0..100% fill
+    function scaleEval(cum) {
+      // Symmetric scaling around 0 so cum=0 -> 50%
+      const r = Math.max(Math.abs(minC||0), Math.abs(maxC||0), 1e-6);
+      const t = (cum + r) / (2*r);
+      return Math.round(Math.max(0, Math.min(1, t)) * 100);
+    }
+
+    function renderChat(h) {
+      const chat = document.getElementById('chat');
+      chat.innerHTML = '';
+      const header = document.createElement('div');
+      header.className = 'flex items-center justify-between mb-2 text-sm text-base-content/70';
+      header.innerHTML = `<div>Window ${h.window_idx ?? '-'} | ${h.start || ''} - ${h.end || ''}</div><div>Δ ${Number(h.delta||0).toFixed(2)} · Cum ${Number(h.cumulative||0).toFixed(2)}</div>`;
+      const wrapper = document.createElement('div');
+      wrapper.className = 'border rounded-lg p-4 bg-base-300 shadow';
+      wrapper.appendChild(header);
+      const msgs = document.createElement('div');
+      msgs.className = 'flex flex-col gap-2';
+      (h.messages || []).forEach(msg => {
+        const isA = msg.speaker === 'A';
+        const row = document.createElement('div');
+        row.className = 'flex ' + (isA ? 'justify-start' : 'justify-end');
+        const bubble = document.createElement('div');
+        bubble.className = 'max-w-[75%] rounded-xl px-3 py-2 ' + (isA ? 'bg-sky-100 text-sky-900' : 'bg-fuchsia-100 text-fuchsia-900');
+        bubble.innerHTML = `<div class="text-xs font-semibold mb-1">${msg.name} (${msg.speaker})</div><div class="text-sm">${msg.text || ''}</div><div class="text-[10px] opacity-70 mt-1">${msg.start || ''} → ${msg.end || ''}</div>`;
+        row.appendChild(bubble);
+        msgs.appendChild(row);
+      });
+      wrapper.appendChild(msgs);
+      chat.appendChild(wrapper);
+    }
+
+    let i = -1; // start neutral at 0-0
+    function renderNeutral(){
+      document.getElementById('evalFillA').style.height = `50%`;
+      document.getElementById('evalFillB').style.height = `50%`;
+      document.getElementById('evalLabel').textContent = 'Neutral (0-0)';
+      document.getElementById('idxLabel').innerText = `Start · ${highlights.length} highlights`;
+      document.getElementById('chat').innerHTML = '<div class="border rounded-lg p-4 bg-base-300 shadow text-sm text-base-content/70">Press Next to view the first highlight window.</div>';
+    }
+    function renderEvalAndChat() {
+      if (i < 0) { renderNeutral(); return; }
+      const h = highlights[i] || {cumulative: 0, messages: []};
+      const pct = scaleEval(Number(h.cumulative||0));
+      // Chess-bar style: always fully filled; bottom (A) gets pct%, top (B) gets 100-pct%
+      const aH = Math.max(0, Math.min(100, pct));
+      const bH = Math.max(0, 100 - aH);
+      document.getElementById('evalFillA').style.height = `${aH}%`;
+      document.getElementById('evalFillB').style.height = `${bH}%`;
+      const lbl = document.getElementById('evalLabel');
+      lbl.textContent = (Number(h.delta||0) >= 0 ? 'A advantage' : 'B advantage');
+      document.getElementById('idxLabel').innerText = `Highlight ${i+1} / ${highlights.length}`;
+      renderChat(h);
+
+      // Render rubric table and quick rationale
+      const box = document.getElementById('scoreTable');
+      const rs = h.rubric_scores || {};
+      const A = rs.A || {}; const B = rs.B || {};
+      const nameA = (speakersMap && speakersMap.A && speakersMap.A.name) ? speakersMap.A.name : 'A';
+      const nameB = (speakersMap && speakersMap.B && speakersMap.B.name) ? speakersMap.B.name : 'B';
+      const safe = v => (v === null || v === undefined || v === '-' ? '-' : Number(v).toFixed(2));
+      const row = (label, ka, kb) => {
+        const rawA = A[ka];
+        const rawB = B[kb];
+        const na = (typeof rawA === 'number') ? rawA : (rawA === undefined || rawA === null || rawA === '-' ? NaN : Number(rawA));
+        const nb = (typeof rawB === 'number') ? rawB : (rawB === undefined || rawB === null || rawB === '-' ? NaN : Number(rawB));
+        const va = safe(rawA);
+        const vb = safe(rawB);
+        let vd = '-';
+        let diffCls = 'text-center text-base-content/70';
+        if (!Number.isNaN(na) && !Number.isNaN(nb)) {
+          const d = na - nb; // positive => A leads (sky), negative => B leads (fuchsia)
+          vd = d.toFixed(2);
+          if (d > 0) diffCls = 'text-center bg-sky-900/20 text-sky-300';
+          else if (d < 0) diffCls = 'text-center bg-fuchsia-900/20 text-fuchsia-300';
+        }
+        return `<tr>
+          <td class=\"text-base-content/70\">${label}</td>
+          <td class=\"bg-sky-900/20 text-sky-300\">${va}</td>
+          <td class=\"${diffCls}\">${vd}</td>
+          <td class=\"bg-fuchsia-900/20 text-fuchsia-300\">${vb}</td>
+        </tr>`;
+      };
+      const totalA = Number(A.total||0), totalB = Number(B.total||0);
+      const header = `<thead><tr>
+        <th></th>
+        <th class=\"text-sky-300\">${nameA}</th>
+        <th class=\"text-base-content/70\">diff</th>
+        <th class=\"text-fuchsia-300\">${nameB}</th>
+      </tr></thead>`;
+      const body = `
+        <tbody>
+          ${row('Clarity', 'clarity', 'clarity')}
+          ${row('Evidence', 'evidence', 'evidence')}
+          ${row('Rebuttal', 'rebuttal', 'rebuttal')}
+          ${row('Organization', 'organization', 'organization')}
+          ${row('Style', 'style', 'style')}
+          ${row('<b>Total</b>', 'total', 'total')}
+        </tbody>`;
+      const table = `<table class=\"table table-xs\">${header}${body}</table>`;
+      const diffTot = (isFinite(totalA) && isFinite(totalB)) ? (totalA - totalB).toFixed(2) : '-';
+      const winnerName = (isFinite(totalA) && isFinite(totalB)) ? (totalA > totalB ? nameA : (totalB > totalA ? nameB : 'Tied')) : '—';
+      const rationale = `<div class=\"mt-2 text-xs\">${winnerName} leads this window by ${diffTot} on totals. Δ=${Number(h.delta||0).toFixed(2)}.</div>`;
+      box.innerHTML = table + rationale;
+    }
+
+    document.getElementById('prevBtn').onclick = () => { if (i>0) { i--; renderEvalAndChat(); } };
+    document.getElementById('nextBtn').onclick = () => { if (i<highlights.length-1) { i++; renderEvalAndChat(); } else if (i<0 && highlights.length>0){ i=0; renderEvalAndChat(); } };
+    renderEvalAndChat();
+  </script>
+  <div class="mt-6">
+    <h2 class="text-xl font-semibold mb-2">Speakers</h2>
+    <div class="grid gap-3 md:grid-cols-3">
+      {% for k, sp in speakers.items() %}
+      <div class="card bg-base-300 shadow">
+        <div class="card-body">
+          <h3 class="card-title">{{ k }} — {{ sp.get('name','') }}</h3>
+          <div class="text-sm text-base-content/70">{{ sp.get('role','') }}</div>
+          <div class="text-sm">{{ sp.get('bio','') }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+

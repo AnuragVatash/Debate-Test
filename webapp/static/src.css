@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* DaisyUI classes will piggyback on Tailwind if installed */
+

@@ -1,0 +1,5027 @@
+{
+  "timeline": [
+    {
+      "window_idx": 0,
+      "start": 0,
+      "end": 60,
+      "block_range": {
+        "block_id_min": 1,
+        "block_id_max": 4
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.5,
+          "total": 2.6
+        },
+        "B": {
+          "clarity": 0.4,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.5
+        }
+      },
+      "delta": 0.07,
+      "cumulative": 0.07
+    },
+    {
+      "window_idx": 1,
+      "start": 60,
+      "end": 120,
+      "block_range": {
+        "block_id_min": 4,
+        "block_id_max": 9
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.1,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.1,
+          "style": 0.1,
+          "total": 0.3
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 2.3
+        }
+      },
+      "delta": -0.8,
+      "cumulative": -0.73
+    },
+    {
+      "window_idx": 2,
+      "start": 120,
+      "end": 180,
+      "block_range": {
+        "block_id_min": 9,
+        "block_id_max": 9
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.7,
+          "rebuttal": 0.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.2
+        }
+      },
+      "delta": -1.28,
+      "cumulative": -2.01
+    },
+    {
+      "window_idx": 3,
+      "start": 180,
+      "end": 240,
+      "block_range": {
+        "block_id_min": 9,
+        "block_id_max": 9
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.9,
+          "evidence": 0.2,
+          "rebuttal": 0.0,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 2.7
+        }
+      },
+      "delta": -1.08,
+      "cumulative": -3.09
+    },
+    {
+      "window_idx": 4,
+      "start": 240,
+      "end": 300,
+      "block_range": {
+        "block_id_min": 9,
+        "block_id_max": 9
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.0,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.0
+        }
+      },
+      "delta": -1.2,
+      "cumulative": -4.29
+    },
+    {
+      "window_idx": 5,
+      "start": 300,
+      "end": 360,
+      "block_range": {
+        "block_id_min": 11,
+        "block_id_max": 11
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 2.2
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 0.88,
+      "cumulative": -3.41
+    },
+    {
+      "window_idx": 6,
+      "start": 360,
+      "end": 420,
+      "block_range": {
+        "block_id_min": 11,
+        "block_id_max": 11
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.8
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.12,
+      "cumulative": -2.29
+    },
+    {
+      "window_idx": 7,
+      "start": 420,
+      "end": 480,
+      "block_range": {
+        "block_id_min": 11,
+        "block_id_max": 11
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.7,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.36,
+      "cumulative": -0.93
+    },
+    {
+      "window_idx": 8,
+      "start": 480,
+      "end": 540,
+      "block_range": {
+        "block_id_min": 11,
+        "block_id_max": 11
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 0.31
+    },
+    {
+      "window_idx": 9,
+      "start": 540,
+      "end": 600,
+      "block_range": {
+        "block_id_min": 11,
+        "block_id_max": 13
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 0.59
+    },
+    {
+      "window_idx": 10,
+      "start": 600,
+      "end": 660,
+      "block_range": {
+        "block_id_min": 13,
+        "block_id_max": 13
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.5,
+          "rebuttal": 0.0,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 2.8
+        }
+      },
+      "delta": -1.12,
+      "cumulative": -0.53
+    },
+    {
+      "window_idx": 11,
+      "start": 660,
+      "end": 720,
+      "block_range": {
+        "block_id_min": 13,
+        "block_id_max": 14
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.5
+        }
+      },
+      "delta": 0.63,
+      "cumulative": 0.1
+    },
+    {
+      "window_idx": 12,
+      "start": 720,
+      "end": 780,
+      "block_range": {
+        "block_id_min": 15,
+        "block_id_max": 17
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.2,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.3
+        }
+      },
+      "delta": 0.07,
+      "cumulative": 0.17
+    },
+    {
+      "window_idx": 13,
+      "start": 780,
+      "end": 840,
+      "block_range": {
+        "block_id_min": 17,
+        "block_id_max": 19
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.8,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.7
+        }
+      },
+      "delta": -0.14,
+      "cumulative": 0.03
+    },
+    {
+      "window_idx": 14,
+      "start": 840,
+      "end": 900,
+      "block_range": {
+        "block_id_min": 19,
+        "block_id_max": 20
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.4
+        }
+      },
+      "delta": 0.77,
+      "cumulative": 0.8
+    },
+    {
+      "window_idx": 15,
+      "start": 900,
+      "end": 960,
+      "block_range": {
+        "block_id_min": 20,
+        "block_id_max": 21
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.4,
+          "rebuttal": 0.7,
+          "organization": 0.5,
+          "style": 0.6,
+          "total": 2.8
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 1.01
+    },
+    {
+      "window_idx": 16,
+      "start": 960,
+      "end": 1020,
+      "block_range": {
+        "block_id_min": 21,
+        "block_id_max": 25
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 1.57
+    },
+    {
+      "window_idx": 17,
+      "start": 1020,
+      "end": 1080,
+      "block_range": {
+        "block_id_min": 25,
+        "block_id_max": 25
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.9,
+          "evidence": 0.7,
+          "rebuttal": 0.8,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 4.1
+        }
+      },
+      "delta": -1.64,
+      "cumulative": -0.07
+    },
+    {
+      "window_idx": 18,
+      "start": 1080,
+      "end": 1140,
+      "block_range": {
+        "block_id_min": 26,
+        "block_id_max": 27
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.7,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.8
+        }
+      },
+      "delta": -0.56,
+      "cumulative": -0.63
+    },
+    {
+      "window_idx": 19,
+      "start": 1140,
+      "end": 1200,
+      "block_range": {
+        "block_id_min": 27,
+        "block_id_max": 29
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.2,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.8
+        }
+      },
+      "delta": 0.42,
+      "cumulative": -0.21
+    },
+    {
+      "window_idx": 20,
+      "start": 1200,
+      "end": 1260,
+      "block_range": {
+        "block_id_min": 29,
+        "block_id_max": 34
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.5,
+          "total": 1.9
+        }
+      },
+      "delta": 1.19,
+      "cumulative": 0.98
+    },
+    {
+      "window_idx": 21,
+      "start": 1260,
+      "end": 1320,
+      "block_range": {
+        "block_id_min": 34,
+        "block_id_max": 36
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 1.82
+    },
+    {
+      "window_idx": 22,
+      "start": 1320,
+      "end": 1380,
+      "block_range": {
+        "block_id_min": 37,
+        "block_id_max": 37
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.3,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.4
+        }
+      },
+      "delta": -1.36,
+      "cumulative": 0.46
+    },
+    {
+      "window_idx": 23,
+      "start": 1380,
+      "end": 1440,
+      "block_range": {
+        "block_id_min": 38,
+        "block_id_max": 39
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 2.9
+        },
+        "B": {
+          "clarity": 0.9,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 4.0
+        }
+      },
+      "delta": -0.44,
+      "cumulative": 0.02
+    },
+    {
+      "window_idx": 24,
+      "start": 1440,
+      "end": 1500,
+      "block_range": {
+        "block_id_min": 39,
+        "block_id_max": 41
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.2
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.2,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.3
+        }
+      },
+      "delta": -0.07,
+      "cumulative": -0.05
+    },
+    {
+      "window_idx": 25,
+      "start": 1500,
+      "end": 1560,
+      "block_range": {
+        "block_id_min": 41,
+        "block_id_max": 44
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 0.93
+    },
+    {
+      "window_idx": 26,
+      "start": 1560,
+      "end": 1620,
+      "block_range": {
+        "block_id_min": 44,
+        "block_id_max": 46
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": 0.35,
+      "cumulative": 1.28
+    },
+    {
+      "window_idx": 27,
+      "start": 1620,
+      "end": 1680,
+      "block_range": {
+        "block_id_min": 46,
+        "block_id_max": 47
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 1.49
+    },
+    {
+      "window_idx": 28,
+      "start": 1680,
+      "end": 1740,
+      "block_range": {
+        "block_id_min": 47,
+        "block_id_max": 50
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.91,
+      "cumulative": 2.4
+    },
+    {
+      "window_idx": 29,
+      "start": 1740,
+      "end": 1800,
+      "block_range": {
+        "block_id_min": 50,
+        "block_id_max": 51
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.8
+        }
+      },
+      "delta": -1.12,
+      "cumulative": 1.28
+    },
+    {
+      "window_idx": 30,
+      "start": 1800,
+      "end": 1860,
+      "block_range": {
+        "block_id_min": 51,
+        "block_id_max": 51
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.8
+        }
+      },
+      "delta": -1.12,
+      "cumulative": 0.16
+    },
+    {
+      "window_idx": 31,
+      "start": 1860,
+      "end": 1920,
+      "block_range": {
+        "block_id_min": 51,
+        "block_id_max": 51
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.5,
+          "total": 2.4
+        }
+      },
+      "delta": -0.96,
+      "cumulative": -0.8
+    },
+    {
+      "window_idx": 32,
+      "start": 1920,
+      "end": 1980,
+      "block_range": {
+        "block_id_min": 51,
+        "block_id_max": 51
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.8
+        }
+      },
+      "delta": -1.12,
+      "cumulative": -1.92
+    },
+    {
+      "window_idx": 33,
+      "start": 1980,
+      "end": 2040,
+      "block_range": {
+        "block_id_min": 51,
+        "block_id_max": 52
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.91,
+      "cumulative": -1.01
+    },
+    {
+      "window_idx": 34,
+      "start": 2040,
+      "end": 2100,
+      "block_range": {
+        "block_id_min": 52,
+        "block_id_max": 55
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.2,
+          "evidence": 0.0,
+          "rebuttal": 0.2,
+          "organization": 0.2,
+          "style": 0.3,
+          "total": 0.9
+        }
+      },
+      "delta": 1.89,
+      "cumulative": 0.88
+    },
+    {
+      "window_idx": 35,
+      "start": 2100,
+      "end": 2160,
+      "block_range": {
+        "block_id_min": 56,
+        "block_id_max": 60
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.4,
+          "evidence": 0.3,
+          "rebuttal": 0.3,
+          "organization": 0.3,
+          "style": 0.4,
+          "total": 1.7
+        }
+      },
+      "delta": 1.33,
+      "cumulative": 2.21
+    },
+    {
+      "window_idx": 36,
+      "start": 2160,
+      "end": 2220,
+      "block_range": {
+        "block_id_min": 60,
+        "block_id_max": 61
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.2
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": 0.07,
+      "cumulative": 2.28
+    },
+    {
+      "window_idx": 37,
+      "start": 2220,
+      "end": 2280,
+      "block_range": {
+        "block_id_min": 61,
+        "block_id_max": 65
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 1.0,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 1.0,
+          "style": 0.9,
+          "total": 3.9
+        },
+        "B": {
+          "clarity": 0.4,
+          "evidence": 0.0,
+          "rebuttal": 0.4,
+          "organization": 0.3,
+          "style": 0.4,
+          "total": 1.5
+        }
+      },
+      "delta": 1.68,
+      "cumulative": 3.96
+    },
+    {
+      "window_idx": 38,
+      "start": 2280,
+      "end": 2340,
+      "block_range": {
+        "block_id_min": 65,
+        "block_id_max": 68
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.5,
+          "total": 1.9
+        }
+      },
+      "delta": 1.12,
+      "cumulative": 5.08
+    },
+    {
+      "window_idx": 39,
+      "start": 2340,
+      "end": 2400,
+      "block_range": {
+        "block_id_min": 69,
+        "block_id_max": 70
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 1.0,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 1.0,
+          "style": 0.9,
+          "total": 3.9
+        },
+        "B": {
+          "clarity": 0.3,
+          "evidence": 0.0,
+          "rebuttal": 0.3,
+          "organization": 0.2,
+          "style": 0.3,
+          "total": 1.1
+        }
+      },
+      "delta": 1.96,
+      "cumulative": 7.04
+    },
+    {
+      "window_idx": 40,
+      "start": 2400,
+      "end": 2460,
+      "block_range": {
+        "block_id_min": 70,
+        "block_id_max": 74
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 7.32
+    },
+    {
+      "window_idx": 41,
+      "start": 2460,
+      "end": 2520,
+      "block_range": {
+        "block_id_min": 74,
+        "block_id_max": 78
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 7.53
+    },
+    {
+      "window_idx": 42,
+      "start": 2520,
+      "end": 2580,
+      "block_range": {
+        "block_id_min": 78,
+        "block_id_max": 78
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": -1.4,
+      "cumulative": 6.13
+    },
+    {
+      "window_idx": 43,
+      "start": 2580,
+      "end": 2640,
+      "block_range": {
+        "block_id_min": 78,
+        "block_id_max": 80
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.2,
+      "cumulative": 6.33
+    },
+    {
+      "window_idx": 44,
+      "start": 2640,
+      "end": 2700,
+      "block_range": {
+        "block_id_min": 80,
+        "block_id_max": 82
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.6,
+          "total": 2.0
+        }
+      },
+      "delta": 0.77,
+      "cumulative": 7.1
+    },
+    {
+      "window_idx": 45,
+      "start": 2700,
+      "end": 2760,
+      "block_range": {
+        "block_id_min": 81,
+        "block_id_max": 82
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.7,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.8
+        }
+      },
+      "delta": -1.52,
+      "cumulative": 5.58
+    },
+    {
+      "window_idx": 46,
+      "start": 2760,
+      "end": 2820,
+      "block_range": {
+        "block_id_min": 84,
+        "block_id_max": 86
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.7,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": 0.07,
+      "cumulative": 5.65
+    },
+    {
+      "window_idx": 47,
+      "start": 2820,
+      "end": 2880,
+      "block_range": {
+        "block_id_min": 86,
+        "block_id_max": 87
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.91,
+      "cumulative": 6.56
+    },
+    {
+      "window_idx": 48,
+      "start": 2880,
+      "end": 2940,
+      "block_range": {
+        "block_id_min": 87,
+        "block_id_max": 91
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.4,
+          "evidence": 0.0,
+          "rebuttal": 0.4,
+          "organization": 0.3,
+          "style": 0.4,
+          "total": 1.5
+        }
+      },
+      "delta": 1.47,
+      "cumulative": 8.03
+    },
+    {
+      "window_idx": 49,
+      "start": 2940,
+      "end": 3000,
+      "block_range": {
+        "block_id_min": 91,
+        "block_id_max": 92
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.5,
+          "total": 1.9
+        }
+      },
+      "delta": 1.05,
+      "cumulative": 9.08
+    },
+    {
+      "window_idx": 50,
+      "start": 3000,
+      "end": 3060,
+      "block_range": {
+        "block_id_min": 92,
+        "block_id_max": 95
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.8,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 9.01
+    },
+    {
+      "window_idx": 51,
+      "start": 3060,
+      "end": 3120,
+      "block_range": {
+        "block_id_min": 96,
+        "block_id_max": 102
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.4,
+          "total": 2.1
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 9.99
+    },
+    {
+      "window_idx": 52,
+      "start": 3120,
+      "end": 3180,
+      "block_range": {
+        "block_id_min": 102,
+        "block_id_max": 103
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.5,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.6
+        }
+      },
+      "delta": -0.42,
+      "cumulative": 9.57
+    },
+    {
+      "window_idx": 53,
+      "start": 3180,
+      "end": 3240,
+      "block_range": {
+        "block_id_min": 104,
+        "block_id_max": 105
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 9.78
+    },
+    {
+      "window_idx": 54,
+      "start": 3240,
+      "end": 3300,
+      "block_range": {
+        "block_id_min": 106,
+        "block_id_max": 107
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": -0.35,
+      "cumulative": 9.43
+    },
+    {
+      "window_idx": 55,
+      "start": 3300,
+      "end": 3360,
+      "block_range": {
+        "block_id_min": 108,
+        "block_id_max": 109
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 9.92
+    },
+    {
+      "window_idx": 56,
+      "start": 3360,
+      "end": 3420,
+      "block_range": {
+        "block_id_min": 110,
+        "block_id_max": 111
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.6,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 3.3
+        }
+      },
+      "delta": -0.21,
+      "cumulative": 9.71
+    },
+    {
+      "window_idx": 57,
+      "start": 3420,
+      "end": 3480,
+      "block_range": {
+        "block_id_min": 112,
+        "block_id_max": 112
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.36,
+      "cumulative": 11.07
+    },
+    {
+      "window_idx": 58,
+      "start": 3480,
+      "end": 3540,
+      "block_range": {
+        "block_id_min": 113,
+        "block_id_max": 117
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.7
+        }
+      },
+      "delta": -0.49,
+      "cumulative": 10.58
+    },
+    {
+      "window_idx": 59,
+      "start": 3540,
+      "end": 3600,
+      "block_range": {
+        "block_id_min": 117,
+        "block_id_max": 118
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.7,
+      "cumulative": 11.28
+    },
+    {
+      "window_idx": 60,
+      "start": 3600,
+      "end": 3660,
+      "block_range": {
+        "block_id_min": 118,
+        "block_id_max": 122
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.4,
+          "evidence": 0.0,
+          "rebuttal": 0.4,
+          "organization": 0.3,
+          "style": 0.4,
+          "total": 1.5
+        }
+      },
+      "delta": 1.47,
+      "cumulative": 12.75
+    },
+    {
+      "window_idx": 61,
+      "start": 3660,
+      "end": 3720,
+      "block_range": {
+        "block_id_min": 123,
+        "block_id_max": 126
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 13.59
+    },
+    {
+      "window_idx": 62,
+      "start": 3720,
+      "end": 3780,
+      "block_range": {
+        "block_id_min": 127,
+        "block_id_max": 130
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.5
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.91,
+      "cumulative": 14.5
+    },
+    {
+      "window_idx": 63,
+      "start": 3780,
+      "end": 3840,
+      "block_range": {
+        "block_id_min": 130,
+        "block_id_max": 132
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 14.78
+    },
+    {
+      "window_idx": 64,
+      "start": 3840,
+      "end": 3900,
+      "block_range": {
+        "block_id_min": 133,
+        "block_id_max": 134
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 15.27
+    },
+    {
+      "window_idx": 65,
+      "start": 3900,
+      "end": 3960,
+      "block_range": {
+        "block_id_min": 135,
+        "block_id_max": 139
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 15.83
+    },
+    {
+      "window_idx": 66,
+      "start": 3960,
+      "end": 4020,
+      "block_range": {
+        "block_id_min": 140,
+        "block_id_max": 144
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 16.32
+    },
+    {
+      "window_idx": 67,
+      "start": 4020,
+      "end": 4080,
+      "block_range": {
+        "block_id_min": 144,
+        "block_id_max": 146
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 16.25
+    },
+    {
+      "window_idx": 68,
+      "start": 4080,
+      "end": 4140,
+      "block_range": {
+        "block_id_min": 147,
+        "block_id_max": 152
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 17.23
+    },
+    {
+      "window_idx": 69,
+      "start": 4140,
+      "end": 4200,
+      "block_range": {
+        "block_id_min": 153,
+        "block_id_max": 156
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 17.72
+    },
+    {
+      "window_idx": 70,
+      "start": 4200,
+      "end": 4260,
+      "block_range": {
+        "block_id_min": 156,
+        "block_id_max": 164
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.5,
+          "total": 1.9
+        }
+      },
+      "delta": 1.19,
+      "cumulative": 18.91
+    },
+    {
+      "window_idx": 71,
+      "start": 4260,
+      "end": 4320,
+      "block_range": {
+        "block_id_min": 164,
+        "block_id_max": 165
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 18.84
+    },
+    {
+      "window_idx": 72,
+      "start": 4320,
+      "end": 4380,
+      "block_range": {
+        "block_id_min": 165,
+        "block_id_max": 168
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 19.33
+    },
+    {
+      "window_idx": 73,
+      "start": 4380,
+      "end": 4440,
+      "block_range": {
+        "block_id_min": 168,
+        "block_id_max": 171
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 19.61
+    },
+    {
+      "window_idx": 74,
+      "start": 4440,
+      "end": 4500,
+      "block_range": {
+        "block_id_min": 172,
+        "block_id_max": 178
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 20.45
+    },
+    {
+      "window_idx": 75,
+      "start": 4500,
+      "end": 4560,
+      "block_range": {
+        "block_id_min": 178,
+        "block_id_max": 181
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.5,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 3.2
+        }
+      },
+      "delta": -0.14,
+      "cumulative": 20.31
+    },
+    {
+      "window_idx": 76,
+      "start": 4560,
+      "end": 4620,
+      "block_range": {
+        "block_id_min": 181,
+        "block_id_max": 184
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 21.29
+    },
+    {
+      "window_idx": 77,
+      "start": 4620,
+      "end": 4680,
+      "block_range": {
+        "block_id_min": 185,
+        "block_id_max": 188
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 21.57
+    },
+    {
+      "window_idx": 78,
+      "start": 4680,
+      "end": 4740,
+      "block_range": {
+        "block_id_min": 189,
+        "block_id_max": 194
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 22.13
+    },
+    {
+      "window_idx": 79,
+      "start": 4740,
+      "end": 4800,
+      "block_range": {
+        "block_id_min": 195,
+        "block_id_max": 197
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.3,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.4
+        }
+      },
+      "delta": -0.28,
+      "cumulative": 21.85
+    },
+    {
+      "window_idx": 80,
+      "start": 4800,
+      "end": 4860,
+      "block_range": {
+        "block_id_min": 197,
+        "block_id_max": 198
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 22.06
+    },
+    {
+      "window_idx": 81,
+      "start": 4860,
+      "end": 4920,
+      "block_range": {
+        "block_id_min": 199,
+        "block_id_max": 201
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": -0.63,
+      "cumulative": 21.43
+    },
+    {
+      "window_idx": 82,
+      "start": 4920,
+      "end": 4980,
+      "block_range": {
+        "block_id_min": 201,
+        "block_id_max": 201
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 20.19
+    },
+    {
+      "window_idx": 83,
+      "start": 4980,
+      "end": 5040,
+      "block_range": {
+        "block_id_min": 202,
+        "block_id_max": 202
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 21.43
+    },
+    {
+      "window_idx": 84,
+      "start": 5040,
+      "end": 5100,
+      "block_range": {
+        "block_id_min": 202,
+        "block_id_max": 203
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.6,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 3.3
+        }
+      },
+      "delta": -0.21,
+      "cumulative": 21.22
+    },
+    {
+      "window_idx": 85,
+      "start": 5100,
+      "end": 5160,
+      "block_range": {
+        "block_id_min": 204,
+        "block_id_max": 204
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.5,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.9
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.56,
+      "cumulative": 22.78
+    },
+    {
+      "window_idx": 86,
+      "start": 5160,
+      "end": 5220,
+      "block_range": {
+        "block_id_min": 205,
+        "block_id_max": 207
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": -0.35,
+      "cumulative": 22.43
+    },
+    {
+      "window_idx": 87,
+      "start": 5220,
+      "end": 5280,
+      "block_range": {
+        "block_id_min": 208,
+        "block_id_max": 212
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.5,
+          "evidence": 0.0,
+          "rebuttal": 0.5,
+          "organization": 0.4,
+          "style": 0.5,
+          "total": 1.9
+        }
+      },
+      "delta": 1.19,
+      "cumulative": 23.62
+    },
+    {
+      "window_idx": 88,
+      "start": 5280,
+      "end": 5340,
+      "block_range": {
+        "block_id_min": 212,
+        "block_id_max": 217
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 24.11
+    },
+    {
+      "window_idx": 89,
+      "start": 5340,
+      "end": 5400,
+      "block_range": {
+        "block_id_min": 218,
+        "block_id_max": 221
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 24.95
+    },
+    {
+      "window_idx": 90,
+      "start": 5400,
+      "end": 5460,
+      "block_range": {
+        "block_id_min": 221,
+        "block_id_max": 227
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 25.23
+    },
+    {
+      "window_idx": 91,
+      "start": 5460,
+      "end": 5520,
+      "block_range": {
+        "block_id_min": 228,
+        "block_id_max": 232
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 25.51
+    },
+    {
+      "window_idx": 92,
+      "start": 5520,
+      "end": 5580,
+      "block_range": {
+        "block_id_min": 232,
+        "block_id_max": 236
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 25.79
+    },
+    {
+      "window_idx": 93,
+      "start": 5580,
+      "end": 5640,
+      "block_range": {
+        "block_id_min": 237,
+        "block_id_max": 238
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 26.07
+    },
+    {
+      "window_idx": 94,
+      "start": 5640,
+      "end": 5700,
+      "block_range": {
+        "block_id_min": 239,
+        "block_id_max": 242
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.4,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.5
+        }
+      },
+      "delta": -0.35,
+      "cumulative": 25.72
+    },
+    {
+      "window_idx": 95,
+      "start": 5700,
+      "end": 5760,
+      "block_range": {
+        "block_id_min": 242,
+        "block_id_max": 243
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 26.21
+    },
+    {
+      "window_idx": 96,
+      "start": 5760,
+      "end": 5820,
+      "block_range": {
+        "block_id_min": 243,
+        "block_id_max": 247
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.7
+        }
+      },
+      "delta": -0.49,
+      "cumulative": 25.72
+    },
+    {
+      "window_idx": 97,
+      "start": 5820,
+      "end": 5880,
+      "block_range": {
+        "block_id_min": 247,
+        "block_id_max": 251
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 26.21
+    },
+    {
+      "window_idx": 98,
+      "start": 5880,
+      "end": 5940,
+      "block_range": {
+        "block_id_min": 252,
+        "block_id_max": 256
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 27.19
+    },
+    {
+      "window_idx": 99,
+      "start": 5940,
+      "end": 6000,
+      "block_range": {
+        "block_id_min": 257,
+        "block_id_max": 261
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 27.75
+    },
+    {
+      "window_idx": 100,
+      "start": 6000,
+      "end": 6060,
+      "block_range": {
+        "block_id_min": 262,
+        "block_id_max": 264
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 1.0,
+          "organization": 0.9,
+          "style": 0.8,
+          "total": 3.6
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.98,
+      "cumulative": 28.73
+    },
+    {
+      "window_idx": 101,
+      "start": 6060,
+      "end": 6120,
+      "block_range": {
+        "block_id_min": 264,
+        "block_id_max": 268
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 29.01
+    },
+    {
+      "window_idx": 102,
+      "start": 6120,
+      "end": 6180,
+      "block_range": {
+        "block_id_min": 268,
+        "block_id_max": 272
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 29.85
+    },
+    {
+      "window_idx": 103,
+      "start": 6180,
+      "end": 6240,
+      "block_range": {
+        "block_id_min": 273,
+        "block_id_max": 276
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 30.13
+    },
+    {
+      "window_idx": 104,
+      "start": 6240,
+      "end": 6300,
+      "block_range": {
+        "block_id_min": 277,
+        "block_id_max": 280
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 30.62
+    },
+    {
+      "window_idx": 105,
+      "start": 6300,
+      "end": 6360,
+      "block_range": {
+        "block_id_min": 280,
+        "block_id_max": 283
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 30.55
+    },
+    {
+      "window_idx": 106,
+      "start": 6360,
+      "end": 6420,
+      "block_range": {
+        "block_id_min": 284,
+        "block_id_max": 286
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 30.83
+    },
+    {
+      "window_idx": 107,
+      "start": 6420,
+      "end": 6480,
+      "block_range": {
+        "block_id_min": 286,
+        "block_id_max": 288
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 29.59
+    },
+    {
+      "window_idx": 108,
+      "start": 6480,
+      "end": 6540,
+      "block_range": {
+        "block_id_min": 288,
+        "block_id_max": 292
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 29.8
+    },
+    {
+      "window_idx": 109,
+      "start": 6540,
+      "end": 6600,
+      "block_range": {
+        "block_id_min": 292,
+        "block_id_max": 294
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.7
+        }
+      },
+      "delta": -1.48,
+      "cumulative": 28.32
+    },
+    {
+      "window_idx": 110,
+      "start": 6600,
+      "end": 6660,
+      "block_range": {
+        "block_id_min": 294,
+        "block_id_max": 294
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 27.08
+    },
+    {
+      "window_idx": 111,
+      "start": 6660,
+      "end": 6720,
+      "block_range": {
+        "block_id_min": 295,
+        "block_id_max": 297
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 27.57
+    },
+    {
+      "window_idx": 112,
+      "start": 6720,
+      "end": 6780,
+      "block_range": {
+        "block_id_min": 298,
+        "block_id_max": 301
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 28.13
+    },
+    {
+      "window_idx": 113,
+      "start": 6780,
+      "end": 6840,
+      "block_range": {
+        "block_id_min": 302,
+        "block_id_max": 305
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 28.69
+    },
+    {
+      "window_idx": 114,
+      "start": 6840,
+      "end": 6900,
+      "block_range": {
+        "block_id_min": 306,
+        "block_id_max": 308
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.4,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 3.1
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 28.9
+    },
+    {
+      "window_idx": 115,
+      "start": 6900,
+      "end": 6960,
+      "block_range": {
+        "block_id_min": 309,
+        "block_id_max": 313
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 29.18
+    },
+    {
+      "window_idx": 116,
+      "start": 6960,
+      "end": 7020,
+      "block_range": {
+        "block_id_min": 314,
+        "block_id_max": 316
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 29.46
+    },
+    {
+      "window_idx": 117,
+      "start": 7020,
+      "end": 7080,
+      "block_range": {
+        "block_id_min": 317,
+        "block_id_max": 319
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 29.74
+    },
+    {
+      "window_idx": 118,
+      "start": 7080,
+      "end": 7140,
+      "block_range": {
+        "block_id_min": 320,
+        "block_id_max": 322
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 29.67
+    },
+    {
+      "window_idx": 119,
+      "start": 7140,
+      "end": 7200,
+      "block_range": {
+        "block_id_min": 323,
+        "block_id_max": 323
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 0.0,
+      "cumulative": 29.67
+    },
+    {
+      "window_idx": 120,
+      "start": 7200,
+      "end": 7260,
+      "block_range": {
+        "block_id_min": 324,
+        "block_id_max": 325
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 28.43
+    },
+    {
+      "window_idx": 121,
+      "start": 7260,
+      "end": 7320,
+      "block_range": {
+        "block_id_min": 326,
+        "block_id_max": 326
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.7
+        }
+      },
+      "delta": -1.48,
+      "cumulative": 26.95
+    },
+    {
+      "window_idx": 122,
+      "start": 7320,
+      "end": 7380,
+      "block_range": {
+        "block_id_min": 326,
+        "block_id_max": 326
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 25.71
+    },
+    {
+      "window_idx": 123,
+      "start": 7380,
+      "end": 7440,
+      "block_range": {
+        "block_id_min": 327,
+        "block_id_max": 328
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 26.95
+    },
+    {
+      "window_idx": 124,
+      "start": 7440,
+      "end": 7500,
+      "block_range": {
+        "block_id_min": 328,
+        "block_id_max": 328
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 28.19
+    },
+    {
+      "window_idx": 125,
+      "start": 7500,
+      "end": 7560,
+      "block_range": {
+        "block_id_min": 328,
+        "block_id_max": 328
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 29.43
+    },
+    {
+      "window_idx": 126,
+      "start": 7560,
+      "end": 7620,
+      "block_range": {
+        "block_id_min": 328,
+        "block_id_max": 328
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 30.67
+    },
+    {
+      "window_idx": 127,
+      "start": 7620,
+      "end": 7680,
+      "block_range": {
+        "block_id_min": 329,
+        "block_id_max": 332
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.7,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.8
+        }
+      },
+      "delta": -1.52,
+      "cumulative": 29.15
+    },
+    {
+      "window_idx": 128,
+      "start": 7680,
+      "end": 7740,
+      "block_range": {
+        "block_id_min": 332,
+        "block_id_max": 332
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 27.91
+    },
+    {
+      "window_idx": 129,
+      "start": 7740,
+      "end": 7800,
+      "block_range": {
+        "block_id_min": 333,
+        "block_id_max": 335
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": -1.08,
+      "cumulative": 26.83
+    },
+    {
+      "window_idx": 130,
+      "start": 7800,
+      "end": 7860,
+      "block_range": {
+        "block_id_min": 335,
+        "block_id_max": 338
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": -1.08,
+      "cumulative": 25.75
+    },
+    {
+      "window_idx": 131,
+      "start": 7860,
+      "end": 7920,
+      "block_range": {
+        "block_id_min": 338,
+        "block_id_max": 344
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.8,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.2,
+      "cumulative": 25.95
+    },
+    {
+      "window_idx": 132,
+      "start": 7920,
+      "end": 7980,
+      "block_range": {
+        "block_id_min": 345,
+        "block_id_max": 347
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": -1.08,
+      "cumulative": 24.87
+    },
+    {
+      "window_idx": 133,
+      "start": 7980,
+      "end": 8040,
+      "block_range": {
+        "block_id_min": 347,
+        "block_id_max": 348
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.49,
+      "cumulative": 25.36
+    },
+    {
+      "window_idx": 134,
+      "start": 8040,
+      "end": 8100,
+      "block_range": {
+        "block_id_min": 349,
+        "block_id_max": 354
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 25.64
+    },
+    {
+      "window_idx": 135,
+      "start": 8100,
+      "end": 8160,
+      "block_range": {
+        "block_id_min": 355,
+        "block_id_max": 360
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 25.92
+    },
+    {
+      "window_idx": 136,
+      "start": 8160,
+      "end": 8220,
+      "block_range": {
+        "block_id_min": 361,
+        "block_id_max": 368
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 26.2
+    },
+    {
+      "window_idx": 137,
+      "start": 8220,
+      "end": 8280,
+      "block_range": {
+        "block_id_min": 368,
+        "block_id_max": 372
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.6,
+          "evidence": 0.0,
+          "rebuttal": 0.6,
+          "organization": 0.5,
+          "style": 0.5,
+          "total": 2.2
+        }
+      },
+      "delta": 0.84,
+      "cumulative": 27.04
+    },
+    {
+      "window_idx": 138,
+      "start": 8280,
+      "end": 8340,
+      "block_range": {
+        "block_id_min": 373,
+        "block_id_max": 376
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 27.6
+    },
+    {
+      "window_idx": 139,
+      "start": 8340,
+      "end": 8400,
+      "block_range": {
+        "block_id_min": 377,
+        "block_id_max": 383
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 28.84
+    },
+    {
+      "window_idx": 140,
+      "start": 8400,
+      "end": 8460,
+      "block_range": {
+        "block_id_min": 383,
+        "block_id_max": 385
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 30.08
+    },
+    {
+      "window_idx": 141,
+      "start": 8460,
+      "end": 8520,
+      "block_range": {
+        "block_id_min": 386,
+        "block_id_max": 387
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 28.84
+    },
+    {
+      "window_idx": 142,
+      "start": 8520,
+      "end": 8580,
+      "block_range": {
+        "block_id_min": 388,
+        "block_id_max": 391
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 28.77
+    },
+    {
+      "window_idx": 143,
+      "start": 8580,
+      "end": 8640,
+      "block_range": {
+        "block_id_min": 392,
+        "block_id_max": 395
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 27.53
+    },
+    {
+      "window_idx": 144,
+      "start": 8640,
+      "end": 8700,
+      "block_range": {
+        "block_id_min": 396,
+        "block_id_max": 398
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 27.74
+    },
+    {
+      "window_idx": 145,
+      "start": 8700,
+      "end": 8760,
+      "block_range": {
+        "block_id_min": 399,
+        "block_id_max": 405
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.7,
+          "style": 0.6,
+          "total": 2.7
+        }
+      },
+      "delta": 0.21,
+      "cumulative": 27.95
+    },
+    {
+      "window_idx": 146,
+      "start": 8760,
+      "end": 8820,
+      "block_range": {
+        "block_id_min": 405,
+        "block_id_max": 405
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 26.71
+    },
+    {
+      "window_idx": 147,
+      "start": 8820,
+      "end": 8880,
+      "block_range": {
+        "block_id_min": 406,
+        "block_id_max": 410
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 27.27
+    },
+    {
+      "window_idx": 148,
+      "start": 8880,
+      "end": 8940,
+      "block_range": {
+        "block_id_min": 411,
+        "block_id_max": 414
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 27.83
+    },
+    {
+      "window_idx": 149,
+      "start": 8940,
+      "end": 9000,
+      "block_range": {
+        "block_id_min": 415,
+        "block_id_max": 418
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 28.39
+    },
+    {
+      "window_idx": 150,
+      "start": 9000,
+      "end": 9060,
+      "block_range": {
+        "block_id_min": 419,
+        "block_id_max": 422
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 28.67
+    },
+    {
+      "window_idx": 151,
+      "start": 9060,
+      "end": 9120,
+      "block_range": {
+        "block_id_min": 423,
+        "block_id_max": 426
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.0,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 3.4
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.56,
+      "cumulative": 29.23
+    },
+    {
+      "window_idx": 152,
+      "start": 9120,
+      "end": 9180,
+      "block_range": {
+        "block_id_min": 427,
+        "block_id_max": 427
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 27.99
+    },
+    {
+      "window_idx": 153,
+      "start": 9180,
+      "end": 9240,
+      "block_range": {
+        "block_id_min": 428,
+        "block_id_max": 429
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 26.75
+    },
+    {
+      "window_idx": 154,
+      "start": 9240,
+      "end": 9300,
+      "block_range": {
+        "block_id_min": 429,
+        "block_id_max": 431
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.9,
+          "evidence": 0.7,
+          "rebuttal": 0.9,
+          "organization": 0.8,
+          "style": 0.8,
+          "total": 4.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.64,
+      "cumulative": 28.39
+    },
+    {
+      "window_idx": 155,
+      "start": 9300,
+      "end": 9360,
+      "block_range": {
+        "block_id_min": 431,
+        "block_id_max": 431
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.6,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.7
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.48,
+      "cumulative": 29.87
+    },
+    {
+      "window_idx": 156,
+      "start": 9360,
+      "end": 9420,
+      "block_range": {
+        "block_id_min": 431,
+        "block_id_max": 432
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 30.15
+    },
+    {
+      "window_idx": 157,
+      "start": 9420,
+      "end": 9480,
+      "block_range": {
+        "block_id_min": 433,
+        "block_id_max": 435
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -0.07,
+      "cumulative": 30.08
+    },
+    {
+      "window_idx": 158,
+      "start": 9480,
+      "end": 9540,
+      "block_range": {
+        "block_id_min": 436,
+        "block_id_max": 440
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 30.36
+    },
+    {
+      "window_idx": 159,
+      "start": 9540,
+      "end": 9600,
+      "block_range": {
+        "block_id_min": 441,
+        "block_id_max": 442
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 29.12
+    },
+    {
+      "window_idx": 160,
+      "start": 9600,
+      "end": 9660,
+      "block_range": {
+        "block_id_min": 443,
+        "block_id_max": 446
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": -1.04,
+      "cumulative": 28.08
+    },
+    {
+      "window_idx": 161,
+      "start": 9660,
+      "end": 9720,
+      "block_range": {
+        "block_id_min": 446,
+        "block_id_max": 446
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 26.84
+    },
+    {
+      "window_idx": 162,
+      "start": 9720,
+      "end": 9780,
+      "block_range": {
+        "block_id_min": 447,
+        "block_id_max": 450
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 27.12
+    },
+    {
+      "window_idx": 163,
+      "start": 9780,
+      "end": 9840,
+      "block_range": {
+        "block_id_min": 451,
+        "block_id_max": 452
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 28.36
+    },
+    {
+      "window_idx": 164,
+      "start": 9840,
+      "end": 9900,
+      "block_range": {
+        "block_id_min": 452,
+        "block_id_max": 452
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 29.6
+    },
+    {
+      "window_idx": 165,
+      "start": 9900,
+      "end": 9960,
+      "block_range": {
+        "block_id_min": 452,
+        "block_id_max": 452
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 30.84
+    },
+    {
+      "window_idx": 166,
+      "start": 9960,
+      "end": 10020,
+      "block_range": {
+        "block_id_min": 452,
+        "block_id_max": 452
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 1.24,
+      "cumulative": 32.08
+    },
+    {
+      "window_idx": 167,
+      "start": 10020,
+      "end": 10080,
+      "block_range": {
+        "block_id_min": 452,
+        "block_id_max": 454
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.7,
+          "style": 0.7,
+          "total": 3.0
+        },
+        "B": {
+          "clarity": 0.7,
+          "evidence": 0.0,
+          "rebuttal": 0.7,
+          "organization": 0.6,
+          "style": 0.6,
+          "total": 2.6
+        }
+      },
+      "delta": 0.28,
+      "cumulative": 32.36
+    },
+    {
+      "window_idx": 168,
+      "start": 10080,
+      "end": 10140,
+      "block_range": {
+        "block_id_min": 455,
+        "block_id_max": 455
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 31.12
+    },
+    {
+      "window_idx": 169,
+      "start": 10140,
+      "end": 10200,
+      "block_range": {
+        "block_id_min": 455,
+        "block_id_max": 455
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 29.88
+    },
+    {
+      "window_idx": 170,
+      "start": 10200,
+      "end": 10260,
+      "block_range": {
+        "block_id_min": 455,
+        "block_id_max": 455
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 28.64
+    },
+    {
+      "window_idx": 171,
+      "start": 10260,
+      "end": 10320,
+      "block_range": {
+        "block_id_min": 455,
+        "block_id_max": 455
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.8,
+          "evidence": 0.0,
+          "rebuttal": 0.8,
+          "organization": 0.8,
+          "style": 0.7,
+          "total": 3.1
+        }
+      },
+      "delta": -1.24,
+      "cumulative": 27.4
+    },
+    {
+      "window_idx": 172,
+      "start": 10320,
+      "end": 10380,
+      "block_range": {
+        "block_id_min": 456,
+        "block_id_max": 456
+      },
+      "rubric_scores": {
+        "A": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        },
+        "B": {
+          "clarity": 0.0,
+          "evidence": 0.0,
+          "rebuttal": 0.0,
+          "organization": 0.0,
+          "style": 0.0,
+          "total": 0.0
+        }
+      },
+      "delta": 0.0,
+      "cumulative": 27.4
+    }
+  ],
+  "final_cumulative_score": 27.4,
+  "llm_declared_winner": "A",
+  "confidence": 0.9,
+  "a_wpm": 248.43,
+  "b_wpm": 221.32,
+  "verdict": "Speaker A (Destiny) won by maintaining relentless pressure on the specifics of Speaker B's (Econoboy) proposed system. While B attempted to lay out a complex theoretical framework, A consistently exposed its ambiguities and practical difficulties, particularly regarding capital allocation and the creation of new enterprises. A's strategy of acting as a persistent, practical skeptic proved more effective than B's abstract model-building. This forced B onto the defensive for much of the debate, allowing A to control the flow and framing of the core arguments."
+}

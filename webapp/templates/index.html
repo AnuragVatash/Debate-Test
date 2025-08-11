@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Debates · Debate Engine{% endblock %}
+{% block content %}
+<div class="flex items-center justify-between mb-6">
+  <h1 class="text-2xl font-semibold">Debates</h1>
+  <a href="{{ url_for('index') }}" class="btn btn-sm">Refresh</a>
+  <!-- Upload UI could go here later -->
+  </div>
+
+<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+  {% for d in debates %}
+  <a href="{{ url_for('debate_view', debate_id=d.id) }}" class="card bg-base-100 shadow hover:shadow-lg transition border">
+    <div class="card-body">
+      <h2 class="card-title">{{ d.title }}</h2>
+      <p class="text-sm text-base-content/70">File: {{ d.file }}</p>
+      <p class="text-sm">Final score: {{ d.final if d.final is not none else '—' }}</p>
+    </div>
+  </a>
+  {% else %}
+  <div class="text-base-content/70 alert alert-info">No scored debates found in <code>diatrize/scored</code>.</div>
+  {% endfor %}
+</div>
+{% endblock %}
+
+

@@ -1,0 +1,5 @@
+docker run --rm -it \
+  --device=/dev/kfd --device=/dev/dri --privileged --ipc=host \
+  -v ~/Projects/Debate-Test:/workspace \
+  ct2_hip:gfx1030
+
